@@ -30,6 +30,7 @@ const removeGenPath = () => {
   });
 };
 
+
 beforeEach(removeGenPath);
 afterAll(async () => {
   removeGenPath();
